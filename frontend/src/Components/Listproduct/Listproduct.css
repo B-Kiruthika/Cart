@@ -1,0 +1,31 @@
+.listproduct-format-main{
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr 2fr 2fr 1fr;
+    gap:10px;
+    width: 100%;
+    padding: 20px 0px;
+    color: rgb(18, 17, 17);
+    font-size: 15px;
+    font-weight: 600;   
+    text-align: center;
+}
+.listproduct-format {
+    padding: 15px 0;
+    row-gap: 20px;
+}
+
+.listproduct-product-icon{
+    height: 80px;
+    justify-self: start;
+}
+
+.listproduct-format-main p{
+    justify-self: center;
+    text-align: center;
+}
+
+.listproduct-remove-icon{
+    cursor: pointer;
+    margin: auto;
+    justify-self: center;
+}
