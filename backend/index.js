@@ -70,7 +70,7 @@ app.post("/signup", async (req, res) => {
   }
 
   let cart = {};
-  for (let i = 0; i < 300; i++) cart[i] = 0;
+  for (let i = 0; i < 400; i++) cart[i] = 0;
 
   const user = new Users({
     username: req.body.username,
