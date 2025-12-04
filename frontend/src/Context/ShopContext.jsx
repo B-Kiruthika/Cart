@@ -1,3 +1,5 @@
+/* eslint-disable react-refresh/only-export-components */
+/* eslint-disable react-hooks/immutability */
 import React, { useState, createContext, useEffect } from "react";
 import all_product from "../Components/Assets/all_product";
 
