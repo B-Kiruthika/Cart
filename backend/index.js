@@ -76,7 +76,7 @@ app.post("/signup", async (req, res) => {
     username: req.body.username,
     email: req.body.email,
     password: req.body.password,
-    role: "user", // Default role for new signups
+    role: req.body.role, // Default role for new signups
     cartData: cart,
   });
 
